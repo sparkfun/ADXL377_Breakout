@@ -18552,7 +18552,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.15" y="1.9" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.1516" y="-2.2634" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.9" y1="-0.9" x2="0.9" y2="0.9" layer="29"/>
-<rectangle x1="-0.8" y1="-0.8" x2="0.8" y2="0.8" layer="31"/>
+<rectangle x1="-0.3556" y1="-0.3556" x2="0.3556" y2="0.3556" layer="31"/>
 <rectangle x1="-1.6" y1="1.2" x2="-1.2" y2="1.6" layer="21"/>
 <wire x1="1.6" y1="-1.1" x2="1.6" y2="-1.6" width="0.15" layer="21"/>
 <wire x1="1.6" y1="-1.6" x2="1.1" y2="-1.6" width="0.15" layer="21"/>
@@ -19824,7 +19824,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19855,7 +19858,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <instance part="STANDOFF1" gate="G$1" x="243.84" y="30.48"/>
 <instance part="LOGO1" gate="G$1" x="236.22" y="38.1"/>
 <instance part="LOGO2" gate="G$1" x="220.98" y="45.72"/>
-<instance part="LOGO3" gate="G$1" x="88.9" y="0"/>
+<instance part="LOGO5" gate="G$1" x="88.9" y="0"/>
+<instance part="STANDOFF2" gate="G$1" x="238.76" y="30.48"/>
+<instance part="STANDOFF3" gate="G$1" x="233.68" y="30.48"/>
+<instance part="STANDOFF4" gate="G$1" x="228.6" y="30.48"/>
 </instances>
 <busses>
 </busses>
